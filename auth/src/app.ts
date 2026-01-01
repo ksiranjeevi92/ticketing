@@ -6,8 +6,7 @@ import { currentUserRouter } from "./routes/current-user";
 import { singinRouter } from "./routes/signin";
 import { singoutRouter } from "./routes/signout";
 import { singupRouter } from "./routes/singup";
-import { errorHandler } from "./middlewares/error-handler";
-import { NotFoundError } from "./errors/not-found-error";
+import { NotFoundError, errorHandler } from "@byteurl.com/common";
 
 const app = express();
 
